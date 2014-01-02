@@ -1,0 +1,11 @@
+--- /usr/share/pve-manager/ext4/pvemanagerlib.js.save	2013-12-30 03:05:21.000000000 +0100
++++ /usr/share/pve-manager/ext4/pvemanagerlib.js	2014-01-02 03:36:58.000000000 +0100
+@@ -10940,7 +10940,7 @@ Ext.define('PVE.qemu.MemoryEdit', {
+ 		xtype: 'PVE.form.NetworkCardSelector',
+ 		name: 'model',
+ 		fieldLabel: gettext('Model'),
+-		value: 'e1000',
++		value: 'virtio',
+ 		allowBlank: false
+ 	    },
+ 	    {
