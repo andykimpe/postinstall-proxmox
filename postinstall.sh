@@ -14,3 +14,4 @@ wget https://raw.github.com/andykimpe/postinstall-proxmox/master/patch -qO- | pa
 # patch réseau correctif définir virtio en tant que carte par défaut
 wget https://raw.github.com/andykimpe/postinstall-proxmox/master/patch-virtio -qO- | patch -p0
 echo "OK"
+exit
