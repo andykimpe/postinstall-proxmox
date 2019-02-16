@@ -1,11 +1,11 @@
---- /usr/share/pve-manager/js/pvemanagerlib.js.orig     2019-02-16 02:35:46.2078                                                                             91948 +0100
-+++ /usr/share/pve-manager/js/pvemanagerlib.js  2019-02-16 02:34:10.843204054 +0                                                                             100
+--- /usr/share/pve-manager/js/pvemanagerlib.js.orig	2019-02-16 02:53:31.688725050 +0100
++++ /usr/share/pve-manager/js/pvemanagerlib.js	2019-02-16 02:53:29.284708520 +0100
 @@ -799,7 +799,7 @@
-            success: function(response, opts) {
-                var data = response.result.data;
-
--               if (data.status !== 'Active') {
-+               if (false && data.status !== 'Active') {
-                    Ext.Msg.show({
-                        title: gettext('No valid subscription'),
-                        icon: Ext.Msg.WARNING,
+ 	    success: function(response, opts) {
+ 		var data = response.result.data;
+ 
+-		if (data.status !== 'Active') {
++		if (false && data.status !== 'Active') {
+ 		    Ext.Msg.show({
+ 			title: gettext('No valid subscription'),
+ 			icon: Ext.Msg.WARNING,
