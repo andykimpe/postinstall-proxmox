@@ -11,3 +11,4 @@ pour utilisez ce script de postinstallation entrez la commande suivante
 
 for ovh usin postinstall
 
+https://raw.githubusercontent.com/andykimpe/postinstall-proxmox/master/postinstallovh.sh
