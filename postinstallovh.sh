@@ -1,6 +1,6 @@
 #!/bin/bash
 # disable depot proxmox entrprise
-sed -i "s|deb https://enterprise.proxmox.com/debian wheezy pve-enterprise|#deb https://enterprise.proxmox.com/debian wheezy pve-enterprise|" "/etc/apt/sources.list.d/pve-enterprise.list"
+sed -i "s|deb https://enterprise.proxmox.com/debian|#deb https://enterprise.proxmox.com/debian|" "/etc/apt/sources.list.d/pve-enterprise.list"
 # no return message of apt
 export DEBIAN_FRONTEND=noninteractive
 # update repos list
